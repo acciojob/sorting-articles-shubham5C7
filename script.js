@@ -12,7 +12,7 @@ function clearName(name){
 
   bands.sort((a, b) => clearName(a).localeCompare(clearName(b)));
 
-  const ul = document.getElementById("band");
+  const ul = document.getElementById("bands");
  for(let band of bands){
   const li = document.createElement("li");
   li.textContent=band;
